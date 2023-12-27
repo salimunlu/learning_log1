@@ -10,7 +10,12 @@
 
 {% block content %}
 
-    <p>You have been logged out. Thank you for visiting!</p>
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">You have been logged out. Thank you for visiting!</h4>
+        <p><i class="bi bi-hand-thumbs-up-fill"></i>Hope to see you again soon</p>
+        <hr>
+        <p class="mb-0">Go back to <a href="{% url 'learning_logs:index' %}">home page</a></p>
+    </div>
 
 {% endblock content %}
 </body>
