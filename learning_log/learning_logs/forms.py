@@ -15,3 +15,8 @@ class EntryForm(forms.ModelForm):
         fields = ['text']  # Sadece text alanı formda yer alacak
         labels = {'text': ''}   # text alanı için bir etiket gösterilmeyecek
         widgets = {'text': forms.Textarea(attrs={'cols': 80})}  # alanın genişliği 80 olacak.
+
+
+class SearchForm(forms.Form):
+    query = forms.CharField()
+
