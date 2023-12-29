@@ -7,7 +7,7 @@ Learning Log, kullanıcıların öğrenme günlüklerini oluşturabileceği bir 
 
 ## Kurulum
 Proje yerel bir ortamda çalıştırılmak isteniyorsa, aşağıdaki adımları izleyin:
-1. Projeyi klonlayın: `git clone https://github.com/kullanici/learning-log.git`
+1. Projeyi klonlayın: `git clone https://github.com/salimunlu/learning_log1.git`
 2. Proje dizinine gidin: `cd learning-log`
 3. Sanal bir ortam oluşturun: `python -m venv venv`
 4. Sanal ortamı etkinleştirin:
